@@ -37,11 +37,11 @@ The exact question we are trying to answer running this analysis is the followin
 
 You can find the results in this plot below: Each colour corresponds to a different publisher, representative of a "class of publishers" we currently work with.
 
-![Publisher Report Share of Advertisers](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/src/k-threshold-impact-on-reporting/20200630-publisher-report-nadvertisers.png)
+![Publisher Report Share of Advertisers](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/k-threshold-impact-on-reporting/src/k-threshold-impact-on-reporting/20200630-publisher-report-nadvertisers.png?raw=true)
 
 Interpretation: with a threshold k=10, this major international publisher would have between 20% and 25% of advertisers making displays on its property unreported. This number grows to more than 50% for k = 100 and more than 80% for k = 1000.
 
-![Publisher Report Share of Displays](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/src/k-threshold-impact-on-reporting/20200630-publisher-report-ndisplays.png)
+![Publisher Report Share of Displays](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/k-threshold-impact-on-reporting/src/k-threshold-impact-on-reporting/20200630-publisher-report-ndisplays.png?raw=true)
 
 Interpretation: with a threshold k=100, this major international publisher would have between more than half of advertisers making displays on its property unreported as shown in the upper plot. However, this represents an extremely small share in terms of numbers of displays (~2%).
 
@@ -55,11 +55,11 @@ Again for the sake of simplicity, we equate publisher to top-level domains. In r
 
 The exact question we are trying to answer running this analysis is the following: As an advertiser, what would be the share of the unique top domains which would go unreported in the daily reporting depending on the value of the threshold k?
 
-![Advertiser Report Share of Publishers](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/src/k-threshold-impact-on-reporting/20200630-advertiser-report-npublishers.png)
+![Advertiser Report Share of Publishers](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/k-threshold-impact-on-reporting/src/k-threshold-impact-on-reporting/20200630-advertiser-report-npublishers.png?raw=true)
 
 Interpretation: with a threshold k=10, a major advertiser we work with would have more than 80% of the publishers he printed displays on unreported. Setting this threshold at 2 (k=2) already filters our close to 60% of the publishers from the daily reporting.
 
-![Advertiser Report Share of Displays](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/src/k-threshold-impact-on-reporting/20200630-advertiser-report-ndisplays.png)
+![Advertiser Report Share of Displays](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/k-threshold-impact-on-reporting/src/k-threshold-impact-on-reporting/20200630-advertiser-report-ndisplays.png?raw=true)
 
 Here again, we see that the share of reported unique publishers on which the advertiser printed at least one ad decreases when k increases.
 
