@@ -1,6 +1,6 @@
 # Impact of k identical reports threshold on reporting
 
-Here, we propose to analyze and discuss the consequences that degrading reporting in exchange for more privacy have on advertisers, publishers, and, ultimately, users. In particular, we tried to estimate the impact of obfuscating some rows in aggregated advertiser/publisher reporting (as proposed by Chrome team here and here), for all parties to see how blind they would be about what happens to and on their properties. In order to do so, we used Criteo proprietary data, aggregated and anonymized. We also share [a python script](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/k-threshold-impact-on-reporting.ipynb), for everyone to be able to audit and replicate this analysis on their proprietary data.
+Here, we propose to analyze and discuss the consequences that degrading reporting in exchange for more privacy have on advertisers, publishers, and, ultimately, users. In particular, we tried to estimate the impact of obfuscating some rows in aggregated advertiser/publisher reporting (as proposed by Chrome team here and here), for all parties to see how blind they would be about what happens to and on their properties. In order to do so, we used Criteo proprietary data, aggregated and anonymized. We also share [a python script](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/master/k-threshold-impact-on-reporting.ipynb), for everyone to be able to audit and replicate this analysis on their proprietary data.
 
 ## Granular reporting is necessary for a safe browsing experience
 
@@ -73,4 +73,4 @@ Ultimately, while aiming at preserving users privacy, we believe reporting needs
 
 <hr>
 
-**The pseudo-script used ot run this analysis his available [here](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/k-threshold-impact-on-reporting.ipynb)**
+**The pseudo-script used ot run this analysis his available [here](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/master/k-threshold-impact-on-reporting.ipynb)**
