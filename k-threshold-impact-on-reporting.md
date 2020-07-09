@@ -11,7 +11,7 @@ Let us take a classic example of useful reporting that is currently widely used 
 - For the publishers: see the list of ALL advertisers (redirecting domains) who printed at least one ad on their real estate in the last 24h.
 - For the advertisers: see the list of ALL publishers (at least top-level domains) where they printed at least one ad on. 
 
-This level of transparency proves to be particularly useful for actors on both sides, as to the point where some legislation made it a legal obligation. Indeed, disclosing the exhaustive list of placements where ads have been published to the advertiser is mandatory under French law. 
+This level of transparency proves to be particularly useful for actors on both sides, as to the point where some legislation made it a legal obligation. Indeed, disclosing the exhaustive list of placements where ads have been published to the advertiser is [mandatory under French law](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000034024418). 
 
 As mentioned above, obvious use-cases for these are brand safety on one side and ad quality on the other. Publishers will want the ads displayed on their property to be aligned with their brand and principles (e.g. as a publisher publishing nutrition guidelines, I don't want to have any soda-related ads). Similarly, brands and advertisers will want their ads to be displayed on digital properties that are aligned with their own brand and principles (e.g. as an air travel company, I do not want my ads to be displayed next to news related to air crashes or climatic catastrophes). And neither would want to ads ruining users experience, either through nefarious content or through malware-infected ads.
 
