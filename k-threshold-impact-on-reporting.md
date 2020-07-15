@@ -73,4 +73,4 @@ Ultimately, while aiming at preserving users privacy, we believe reporting needs
 
 <hr>
 
-**The pseudo-script used ot run this analysis his available [here](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/master/k-threshold-impact-on-reporting.ipynb)**
+**The pseudo-script used to run this analysis his available [here](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/master/k-threshold-impact-on-reporting.ipynb)**
