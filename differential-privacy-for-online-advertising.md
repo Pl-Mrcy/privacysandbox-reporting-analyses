@@ -238,7 +238,6 @@ The following table shows the report when projecting on all those essential dime
             <td>0.7</td>
             <td>NA</td>
         </tr>
-        
     </tbody>
 </table>
 
