@@ -163,7 +163,7 @@ On label rarity:
 - The click metric is reliable for Publisher #1 and Publisher #10 and starts to be noisy for Publisher #50 and Publisher #100.
 - The sale metric is reliable for the biggest publisher but is more and more unreliable as the number of sales goes downs. For Publisher #50, the error is 25%, the report is not reliable. 
 
-This example shows that even for one of the biggest Criteo's advertiser, a differential private report at the daily grain will start to be unreliable when considering sales. 
+This example shows that even for one of the biggest Criteo's advertiser, a differential private report at a daily basis will start to be unreliable when considering sales. 
 
 This report only breaks down the data by publishers. To efficiently run an advertising campaign, a report should not only breakdown by publishers but also sizes, devices, etc.
 
@@ -245,15 +245,15 @@ We see that for clicks, even the 100 most frequent modality starts to be unrelia
 
 ## Conclusion
 
-We have seen that the reporting at the daily grain would be significantly impaired report if differential privacy was to be used, even for one of the biggest Criteo's advertiser. This goes from bad to worse when the stakeholders become smaller.
+We have seen that a daily reporting would be significantly impaired if differential privacy was to be used, even for one of the biggest Criteo's advertiser. This goes from bad to worse when the stakeholders become smaller.
 
 Differential privacy could be used for specific advertising use-cases (such as spend management) and provide utility but won't provide a "one size fits all" solution.
 
-The cardinality of some dimensions is such that there won't be way around it. However, for basic use-cases and in order to reduce the noise, one option is to increase the time period you consider, in order to increase the volumes. Advertisers could find a tradeoff between the accuracy of the report and the frequency at which they can receive it. The right trade-off would be specific for each KPI, in alignment with each use-case: daily for the number of displays (campaign spend management), weekly for clicks (CTR computation), monthly for sales (Post-click sales performance). A follow-up to this analysis would be to analyse estimate the order of magnitude to consider for each KPI, in order to remain in pre-defined range compared to the real measure.
+The cardinality of some dimensions is such that there won't be way around it. However, for basic use-cases and in order to reduce the noise, one option is to increase the time period you consider, in order to increase the volumes. Advertisers could find a trade-off between the accuracy of the report and the frequency at which they can receive it. The right trade-off would be specific for each KPI, in alignment with each use-case: daily for the number of displays (campaign spend management), weekly for clicks (CTR computation), monthly for sales (Post-click sales performance). A follow-up to this analysis would be to estimate the order of magnitude to consider for each KPI, in order to remain in a pre-defined range compared to the real measure.
 
 <hr>
 
-**The pseudo-script used to run this analysis his available [here](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/differential-privacy-for-online-advertising/differential-privacy-for-online-advertising.ipynb)**
+**The pseudo-script used to run this analysis is available [here](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/differential-privacy-for-online-advertising/differential-privacy-for-online-advertising.ipynb)**
 
 <hr>
 
