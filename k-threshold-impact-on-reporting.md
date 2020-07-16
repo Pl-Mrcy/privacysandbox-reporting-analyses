@@ -13,9 +13,9 @@ Let us take a classic example of useful reporting that is currently widely used 
 
 This level of transparency proves to be particularly useful for actors on both sides, as to the point where some legislation made it a legal obligation. Indeed, disclosing the exhaustive list of placements where ads have been published to the advertiser is [mandatory under French law](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000034024418). 
 
-As mentioned above, obvious use-cases for these are brand safety on one side and ad quality on the other. Publishers will want the ads displayed on their property to be aligned with their brand and principles (e.g. as a publisher publishing nutrition guidelines, I don't want to have any soda-related ads). Similarly, brands and advertisers will want their ads to be displayed on digital properties that are aligned with their own brand and principles (e.g. as an air travel company, I do not want my ads to be displayed next to news related to air crashes or climatic catastrophes). And neither would want to ads ruining users experience, either through nefarious content or through malware-infected ads.
+As mentioned above, obvious use cases for these are brand safety on one side and ad quality on the other. Publishers will want the ads displayed on their property to be aligned with their brand and principles (e.g. as a publisher publishing nutrition guidelines, I don't want to have any soda-related ads). Similarly, brands and advertisers will want their ads to be displayed on digital properties that are aligned with their own brand and principles (e.g. as an air travel company, I do not want my ads to be displayed next to news related to air crashes or climatic catastrophes). And neither would want to ads ruining users experience, either through nefarious content or through malware-infected ads.
 
-Brand safety and ad quality cannot be handled with an "on average" policy. One bad case is enough to go viral and damage advertiser and publisher brands - not to mention the experience of the user that would have been exposed to it. Publishers and advertisers should thus be very reactive and tackle each individual case with care. This is also true of fraud, invalid traffic, and other use-cases which require detailed reporting to be handled appropriately.
+Brand safety and ad quality cannot be handled with an "on average" policy. One bad case is enough to go viral and damage advertiser and publisher brands - not to mention the experience of the user that would have been exposed to it. Publishers and advertisers should thus be very reactive and tackle each individual case with care. This is also true of fraud, invalid traffic, and other use cases which require detailed reporting to be handled appropriately.
 
 ## Analysis: estimating the impact of thresholding on different typologies of Publishers and Advertisers
 
@@ -67,10 +67,10 @@ The advertiser perspective is even more striking: even for major advertisers, a 
 
 ## Conclusion
 
-While impacting particularly severely the smaller actors on both sides, we see that even the major stakeholder would receive very partial reporting, even for low k values. This hole-filled reporting would definitely not meet the requirements of ad quality and brand safety use-cases, nor the security or fraud investigation use cases, like many others.
+While impacting particularly severely the smaller actors on both sides, we see that even the major stakeholder would receive very partial reporting, even for low k values. This hole-filled reporting would definitely not meet the requirements of ad quality and brand safety use cases, nor the security or fraud investigation use cases, like many others.
 
 Ultimately, while aiming at preserving users privacy, we believe reporting needs to also take into account these other important aspects for an optimal user web experience. There are fortunately other reporting schemes available that could help us combine an acceptable level of reporting and user privacy! We think we should invest in these rather than pushing this one further.
 
 <hr>
 
-**The pseudo-script used to run this analysis his available [here](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/master/k-threshold-impact-on-reporting.ipynb)**
+**The pseudo-script used to run this analysis is available [here](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/master/k-threshold-impact-on-reporting.ipynb)**
