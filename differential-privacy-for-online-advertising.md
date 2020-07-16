@@ -254,3 +254,9 @@ The cardinality of some dimensions is such that there won't be way around it. Ho
 <hr>
 
 **The pseudo-script used to run this analysis his available [here](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/differential-privacy-for-online-advertising/differential-privacy-for-online-advertising.ipynb)**
+
+<hr>
+
+_Basile Leparmentier_  [b.leparmentier@criteo.com](mailto:b.leparmentier@criteo.com)    
+_Dorian Bilinski_  [d.bilinski@criteo.com](mailto:d.bilinski@criteo.com)    
+_Paul Marcilhacy_  [p.marcilhacy@criteo.com](mailto:p.marcilhacy@criteo.com)
