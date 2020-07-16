@@ -249,11 +249,11 @@ We have seen that the reporting at the daily grain would be significantly impair
 
 Differential privacy could be used for specific advertising use-cases (such as spend management) and provide utility but won't provide a "one size fits all" solution.
 
-The cardinality of some dimensions is such that there won't be way around it. However, for basic use-cases and in order to reduce the noise, one option is to increase the time period you consider, in order to increase the volumes. Advertisers could find a tradeoff between the accuracy of the report and the frequency at which they can receive it. The right trade-off would be specific for each KPI, in alignment with each use-case: daily for the number of displays (campaign spend management), weekly for clicks (CTR computation), monthly for sales (Post-click sales performance). A follow-up to this analysis would be to analyse estimate the order of magnitude to consider for each KPI, in order to remain in pre-defined range compared to the real measure.
+The cardinality of some dimensions is such that there won't be way around it. However, for basic use-cases and in order to reduce the noise, one option is to increase the time period you consider, in order to increase the volumes. Advertisers could find a trade-off between the accuracy of the report and the frequency at which they can receive it. The right trade-off would be specific for each KPI, in alignment with each use-case: daily for the number of displays (campaign spend management), weekly for clicks (CTR computation), monthly for sales (Post-click sales performance). A follow-up to this analysis would be to estimate the order of magnitude to consider for each KPI, in order to remain in a pre-defined range compared to the real measure.
 
 <hr>
 
-**The pseudo-script used to run this analysis his available [here](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/differential-privacy-for-online-advertising/differential-privacy-for-online-advertising.ipynb)**
+**The pseudo-script used to run this analysis is available [here](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/differential-privacy-for-online-advertising/differential-privacy-for-online-advertising.ipynb)**
 
 <hr>
 
