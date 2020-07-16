@@ -257,6 +257,6 @@ The cardinality of some dimensions is such that there won't be way around it. Ho
 
 <hr>
 
-_Basile Leparmentier_  [b.leparmentier@criteo.com](mailto:b.leparmentier@criteo.com)
+_Basile Leparmentier_  [b.leparmentier@criteo.com](mailto:b.leparmentier@criteo.com)    
 _Dorian Bilinski_  [d.bilinski@criteo.com](mailto:d.bilinski@criteo.com)
 _Paul Marcilhacy_  [p.marcilhacy@criteo.com](mailto:p.marcilhacy@criteo.com)
