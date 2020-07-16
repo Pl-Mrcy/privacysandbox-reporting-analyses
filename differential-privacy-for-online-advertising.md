@@ -163,7 +163,7 @@ On label rarity:
 - The click metric is reliable for Publisher #1 and Publisher #10 and starts to be noisy for Publisher #50 and Publisher #100.
 - The sale metric is reliable for the biggest publisher but is more and more unreliable as the number of sales goes downs. For Publisher #50, the error is 25%, the report is not reliable. 
 
-This example shows that even for one of the biggest Criteo's advertiser, a differential private report at the daily grain will start to be unreliable when considering sales. 
+This example shows that even for one of the biggest Criteo's advertiser, a differential private report at a daily basis will start to be unreliable when considering sales. 
 
 This report only breaks down the data by publishers. To efficiently run an advertising campaign, a report should not only breakdown by publishers but also sizes, devices, etc.
 
@@ -245,7 +245,7 @@ We see that for clicks, even the 100 most frequent modality starts to be unrelia
 
 ## Conclusion
 
-We have seen that the reporting at the daily grain would be significantly impaired report if differential privacy was to be used, even for one of the biggest Criteo's advertiser. This goes from bad to worse when the stakeholders become smaller.
+We have seen that a daily reporting would be significantly impaired if differential privacy was to be used, even for one of the biggest Criteo's advertiser. This goes from bad to worse when the stakeholders become smaller.
 
 Differential privacy could be used for specific advertising use-cases (such as spend management) and provide utility but won't provide a "one size fits all" solution.
 
