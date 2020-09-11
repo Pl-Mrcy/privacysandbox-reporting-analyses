@@ -2,7 +2,7 @@
 
 Differential privacy is a strong, mathematical definition of privacy in the context of statistical and machine learning analysis. It is often presented as a way to protect user privacy, with a tradeoff with regards to the utility of the information returned. 
 
-In this document, we propose to discuss and showcase why differential privacy is not adapted to some major online advertising use-cases, as using it will lead to a mostly unusable reporting. We attach to this article a [python notebook](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/differential-privacy-for-online-advertising/differential-privacy-for-online-advertising.ipynb) allowing other actors in the industry to play with their own data and generate differential private reports and witness the impact by themselves.
+In this document, we propose to discuss and showcase why differential privacy is not adapted to some major online advertising use-cases, as using it will lead to a mostly unusable reporting. We attach to this article a [python notebook](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/master/differential-privacy-for-online-advertising.ipynb) allowing other actors in the industry to play with their own data and generate differential private reports and witness the impact by themselves.
 
 All examples below, illustrating our points, are based on anonymized Criteo proprietary data.
 
@@ -69,7 +69,7 @@ A notebook is available to run this kind of mock reports on your own data and se
 
 The following graphs show the evolution over time of 4 KPIs. You can compare the real data (as currently shown in reporting) with the differential private report a small advertiser would receive. Differential private epsilon is set at 1 (please remember that 1 is the best value possible for reporting in the range we consider), and Laplacian noise is added (details on additive noise for differential privacy can be found [here](https://en.wikipedia.org/wiki/Additive_noise_mechanisms)). The line in orange is the differential report, in blue the actual KPIs.
 
-![Publisher Report Share of Displays](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/differential-privacy-for-online-advertising/src/differential-privacy-for-online-advertising/20200715-diffentialprivatereport-vs-actualdata.png?raw=true)
+![Publisher Report Share of Displays](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/master/src/differential-privacy-for-online-advertising/20200715-diffentialprivatereport-vs-actualdata.png?raw=true)
 
 We see very well the 'Label rarity impact' for this advertiser. The displays are well reported as a single user has a very small impact on the result. For clicks (and therefore CTR), if the shape of the evolution is mostly represented, the noise is already very significant. On sales is very hard to do anything with the differential private report, as the noise level is as high as the signal. This is because a single user may do a sales and that the absolute number of sales is very low, so the relative level of differential private noise is very high.
 
@@ -253,7 +253,7 @@ The cardinality of some dimensions is such that there won't be way around it. Ho
 
 <hr>
 
-**The pseudo-script used to run this analysis is available [here](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/differential-privacy-for-online-advertising/differential-privacy-for-online-advertising.ipynb)**
+**The pseudo-script used to run this analysis is available [here](https://github.com/Pl-Mrcy/privacysandbox-reporting-analyses/blob/master/differential-privacy-for-online-advertising.ipynb)**
 
 <hr>
 
